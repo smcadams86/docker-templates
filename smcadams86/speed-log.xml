@@ -12,9 +12,9 @@
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/data[/b] : in this path, Speed Log will store it's configuration files.
   </Description>
-  <Registry>https://registry.hub.docker.com/u/homeassistant/home-assistant/</Registry>
-  <GitHub>https://github.com/home-assistant/docker-home-assistant</GitHub>
-  <Repository>homeassistant/home-assistant</Repository>
+  <Registry>https://registry.hub.docker.com/u/smcadams86/speed-log/</Registry>
+  <GitHub>https://github.com/smcadams86/speed-log</GitHub>
+  <Repository>smcadams86/speed-log</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
