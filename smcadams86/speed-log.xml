@@ -23,12 +23,12 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/speed-log/</HostDir>
-      <ContainerDir>/data</ContainerDir>
+      <HostDir>/mnt/user/appdata/speed-log/</HostDir>
+      <ContainerDir>/data/speed-log</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:9090]</WebUI>
   <Icon>http://lh3.googleusercontent.com/82WErd4T1oYjAochmnH-wKly0aXUda5k3ASp5O_zO2fNtGeOHms0qZ1EiAgyc_OVav0</Icon>
-  <Config Name="Data Directory" Target="/data" Default="/mnt/cache/app_config/speed-log" Mode="rw" Description="This path is where Speed Log will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Data Directory" Target="/data/speed-log" Default="/mnt/cache/app_config/speed-log" Mode="rw" Description="This path is where Speed Log will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
